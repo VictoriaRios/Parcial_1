@@ -1,0 +1,313 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+*{
+    margin: 0px;
+    scroll-behavior: smooth;
+    gap: 0px;
+}
+
+
+body{
+    background-color:antiquewhite;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+}
+
+
+header{
+    display: inline-block;
+    background-image: url(../imagenes/entrada_chacarita.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 1900px;
+    height: 800px; 
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    margin-left: 300px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: inline-block;
+    font-family: 'Secular One', sans-serif;
+    text-shadow: 20px 15px 20px black;
+}
+
+
+nav{
+    margin: 0%;
+}
+nav ul{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+li{
+
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+h2{
+    background-color: rgb(255, 224, 182);
+    margin: 40px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Mulish', sans-serif;
+}
+p{
+    font-size: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+}
+
+
+.section_arquitectura{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section_arquitectura img{
+    width: 800px;
+    height: 500px;
+}
+.section_arquitectura2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.section_arquitectura2 img{
+    width: 800px;
+    height: 500px;
+}
+
+
+.horario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100px;
+    min-width: 500px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+    background-color:rgb(231, 199, 158);
+    border-radius: 20px;
+}
+.horario h3{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.horario p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.totalcard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: darkgray;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 20px ;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.card h3{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card img{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px ;
+}
+
+
+
+.llegar h2{
+    text-align: center;
+}
+
+.iframem{
+    display: inline-block;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 20%;
+}
+
+iframe{
+    display: inline-block;
+
+}
+
+.llegarcard{
+    display: flex;
+    width: 60%;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.direc1{
+    text-align: center;
+    background-color:rgb(231, 199, 158); 
+    display: inline-block;
+    border-radius: 20px;
+    padding: 40px;
+
+
+}
+.direc2{
+
+    text-align: center;
+    background-color:rgb(231, 199, 158);
+    display: inline-block;
+    border-radius: 20px;
+    padding: 40px;
+
+}
+.direc3{
+    text-align: center;
+    background-color:rgb(231, 199, 158);
+    display: inline-block;
+    border-radius: 20px;
+    padding: 40px;
+
+}
+.direc4{
+    text-align: center;
+    background-color:rgb(231, 199, 158);
+    display: inline-block;
+    border-radius: 20px;
+    padding: 40px;
+
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(231, 199, 158);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+li{ 
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+
+.flecha img{
+    margin-top: 0%;
+    margin-left: 95%;
+    width: 55px;
+    height: 55px;
+}
+
+
+footer{
+    margin-top: 90px;
+    background-color: black;
+    color: white;
+}
+footer img{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+}
+footer p{
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.nombre {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.nac {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.correo {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+.carrera {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 50px;
+}
+.edad {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+.anio {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 250px;
+}
